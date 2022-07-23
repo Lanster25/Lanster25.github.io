@@ -1,0 +1,43 @@
+.body {
+    /* background-color: red; */
+    background: url(https://media.istockphoto.com/photos/futuristic-modern-empty-stage-reflective-dark-room-with-glowing-neon-picture-id1296175665?b=1&k=20&m=1296175665&s=170667a&w=0&h=Q7Q2y7z4t_gOo7o9adC6FJhxXJK_Vi_p6fp1U0XQA3c=);
+    text-align: center;
+    margin-top: 150px;
+}
+.text{
+    font-size: 2em;
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    min-height: 100px;
+    padding: 40px;
+    margin: 80px auto;
+    text-align: center;
+    border: 5px solid blue;
+    border-radius: 30px;
+    animation-fill-mode: forwards;
+    animation: color-change 2s infinite;
+  }
+  
+  @keyframes color-change {
+    
+    20%{
+      color: blue;
+      background: pink;
+    }
+    40%{
+      color: green;
+      background: skyblue;
+    }
+    60%{
+      color: red;
+      background: skyblue;
+    }
+    80%{
+      color: blue;
+      background: pink;
+    }
+    100%, 0%{
+      color: black;
+      background: yellow;
+    }
+  }
